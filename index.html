@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curriculum vitae — Vanesa Salcedo. Diseño de alto nivel, tipografía, identidad." />
+  <meta name="theme-color" content="#f4f0ea" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>CV · Vanesa Salcedo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="topbar__left">
+      <span class="mark" aria-hidden="true">VS</span>
+      <span class="status-text" data-i18n="status">disponible para encargos</span>
+    </div>
+    <nav class="topbar__nav" aria-label="Primary">
+      <a href="#about" data-i18n="nav.about">about</a>
+      <a href="#experience" data-i18n="nav.experience">experience</a>
+      <a href="#education" data-i18n="nav.education">education</a>
+      <a href="#skills" data-i18n="nav.skills">skills</a>
+      <a href="#work" data-i18n="nav.work">work</a>
+      <a href="#contact" data-i18n="nav.contact">contact</a>
+    </nav>
+    <div class="topbar__right">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" class="lang__btn is-active" data-lang="es" aria-pressed="true">ES</button>
+        <span class="lang__sep" aria-hidden="true">/</span>
+        <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow mono">
+        <span class="num">01</span>
+        <span data-i18n="hero.eyebrow">curriculum · diseño</span>
+      </p>
+      <h1 class="hero__name">
+        <span class="hero__name-line" id="name-line-1">Vanesa</span>
+        <span class="hero__name-line hero__name-line--serif" id="name-line-2">Salcedo</span>
+      </h1>
+      <p class="hero__role">
+        <span id="typewriter" class="typewriter" aria-live="polite"></span>
+      </p>
+      <p class="hero__lead" data-i18n="hero.lead">
+        Diseño de alto nivel con foco en tipografía, identidad y sistemas visuales.
+        Claridad, rigor formal y criterio editorial.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#contact" data-i18n="hero.cta">iniciar conversación</a>
+        <a class="btn btn--ghost" href="#work" data-i18n="hero.ctaSecondary">ver selección</a>
+      </div>
+      <div class="hero__meta mono">
+        <span><span class="dim">loc</span> <span id="meta-loc">Mendoza, AR</span></span>
+        <span class="meta-sep" aria-hidden="true">·</span>
+        <span><span class="dim">tz</span> <span id="meta-tz">UTC−3</span></span>
+        <span class="meta-sep" aria-hidden="true">·</span>
+        <span><span class="dim">focus</span> <span id="meta-stack">type · brand · editorial</span></span>
+      </div>
+    </section>
+
+    <section class="section" id="about" data-reveal>
+      <header class="section__head">
+        <p class="section__label mono"><span class="num">02</span> <span data-i18n="about.label">about</span></p>
+        <h2 class="section__title" data-i18n="about.title">perfil</h2>
+      </header>
+      <div class="about">
+        <div class="about__text">
+          <p data-i18n="about.p1">
+            Soy Vanesa. Trabajo el diseño desde la tipografía y la identidad:
+            marcas, sistemas visuales y piezas donde el tipo es protagonista.
+          </p>
+          <p data-i18n="about.p2">
+            Prefiero menos, mejor: jerarquías claras, ritmo tipográfico y
+            decisiones que se sostienen en el tiempo.
+          </p>
+        </div>
+        <aside class="specimen" aria-label="Type specimen">
+          <div class="specimen__bar mono">
+            <span>specimen</span>
+            <span class="dim">Aa</span>
+          </div>
+          <div class="specimen__body">
+            <p class="specimen__display">Aa</p>
+            <p class="specimen__alpha mono">A B C D E F G H I J K L M</p>
+            <p class="specimen__alpha mono">N O P Q R S T U V W X Y Z</p>
+            <p class="specimen__meta mono" id="specimen-meta">
+              Cormorant Garamond · display<br />
+              Inter · text · UI
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="experience" data-reveal>
+      <header class="section__head">
+        <p class="section__label mono"><span class="num">03</span> <span data-i18n="experience.label">experience</span></p>
+        <h2 class="section__title" data-i18n="experience.title">trayectoria</h2>
+      </header>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <section class="section" id="education" data-reveal>
+      <header class="section__head">
+        <p class="section__label mono"><span class="num">04</span> <span data-i18n="education.label">education</span></p>
+        <h2 class="section__title" data-i18n="education.title">formación</h2>
+      </header>
+      <ol class="timeline" id="education-timeline"></ol>
+    </section>
+
+    <section class="section" id="skills" data-reveal>
+      <header class="section__head">
+        <p class="section__label mono"><span class="num">05</span> <span data-i18n="skills.label">skills</span></p>
+        <h2 class="section__title" data-i18n="skills.title">oficio & herramientas</h2>
+      </header>
+      <div class="skills" id="skills-grid"></div>
+    </section>
+
+    <section class="section" id="work" data-reveal>
+      <header class="section__head">
+        <p class="section__label mono"><span class="num">06</span> <span data-i18n="work.label">work</span></p>
+        <h2 class="section__title" data-i18n="work.title">selección</h2>
+      </header>
+      <div class="projects" id="projects-grid"></div>
+    </section>
+
+    <section class="section section--contact" id="contact" data-reveal>
+      <header class="section__head">
+        <p class="section__label mono"><span class="num">07</span> <span data-i18n="contact.label">contact</span></p>
+        <h2 class="section__title" data-i18n="contact.title">hablemos</h2>
+      </header>
+      <p class="contact__lead" data-i18n="contact.lead">
+        Abierta a encargos de identidad, tipografía y diseño editorial de alto nivel.
+        Preferí mail.
+      </p>
+      <div class="contact__actions">
+        <button type="button" class="btn btn--primary" id="copy-email" hidden>
+          <span class="btn__label" data-i18n="contact.copy">copiar email</span>
+          <span class="btn__feedback" data-i18n="contact.copied" hidden>copiado ✓</span>
+        </button>
+        <a class="btn btn--ghost" data-instagram-link href="#" target="_blank" rel="noopener noreferrer" hidden data-i18n="contact.viaInstagram">Instagram →</a>
+      </div>
+      <p class="contact__hint mono dim" id="contact-hint" hidden>
+        <span data-i18n="contact.hintBefore">tip: pulsá</span>
+        <kbd>e</kbd>
+        <span data-i18n="contact.hintAfter">para copiar el email</span>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="mono">
+      <span class="dim">—</span>
+      <span data-i18n="footer.built">set with care · no frameworks</span>
+      <span class="dim"> · </span>
+      <span id="year"></span>
+    </p>
+  </footer>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
