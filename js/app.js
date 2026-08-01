@@ -242,6 +242,10 @@ const I18N = {
       "Senior graphic designer freelance desde 2006. Identidad, branding y diseño digital para agencias, estudios y equipos de producto en todo el mundo — con un perfil Upwork de alto rendimiento.",
     "hero.cta": "iniciar conversación",
     "hero.ctaSecondary": "ver selección",
+    "stat.years": "años de oficio",
+    "stat.remote": "remoto · global",
+    "stat.craft": "print + digital",
+    "stat.upwork": "upwork track",
     "about.label": "about",
     "about.title": "perfil",
     "about.p1":
@@ -285,6 +289,10 @@ const I18N = {
       "Senior freelance graphic designer since 2006. Identity, branding, and digital design for agencies, studios, and product teams worldwide — with a high-performing Upwork profile.",
     "hero.cta": "start a conversation",
     "hero.ctaSecondary": "see selection",
+    "stat.years": "years in craft",
+    "stat.remote": "remote · global",
+    "stat.craft": "print + digital",
+    "stat.upwork": "upwork track",
     "about.label": "about",
     "about.title": "profile",
     "about.p1":
@@ -622,11 +630,12 @@ function initProfileLinks() {
     el.href = upwork;
   });
 
-  // Si no hay Upwork, el mail pasa a CTA primario
+  // Si no hay Upwork, el mail pasa a CTA hot
   const emailBtn = document.getElementById("copy-email");
   if (emailBtn) {
-    emailBtn.classList.toggle("btn--primary", !upwork);
-    emailBtn.classList.toggle("btn--ghost", Boolean(upwork));
+    emailBtn.classList.toggle("btn--hot", !upwork);
+    emailBtn.classList.toggle("btn--ink", Boolean(upwork));
+    emailBtn.classList.remove("btn--primary", "btn--ghost");
   }
 
   const linkedin = (CONTENT.linkedinUrl || "").trim();
