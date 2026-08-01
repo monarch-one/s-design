@@ -17,57 +17,91 @@ const CONTENT = {
   },
   /** Instagram handle sin @ — vacío = oculto */
   instagram: "valesalcedoo_",
+  /**
+   * LinkedIn (perfil algo desactualizado; se muestra como secundario).
+   * Upwork: canal principal de freelance — pegá la URL pública del perfil.
+   */
+  linkedinUrl: "https://www.linkedin.com/in/vanesa-salcedo-6889a637",
+  upworkUrl: "",
   location: {
     es: "Mendoza, AR",
     en: "Mendoza, AR",
   },
   meta: {
-    es: { loc: "Mendoza, AR", tz: "UTC−3", stack: "type · brand · editorial" },
-    en: { loc: "Mendoza, AR", tz: "UTC−3", stack: "type · brand · editorial" },
+    es: { loc: "Mendoza, AR", tz: "UTC−3", stack: "brand · type · remote" },
+    en: { loc: "Mendoza, AR", tz: "UTC−3", stack: "brand · type · remote" },
   },
   roles: {
     es: [
-      "Diseño de alto nivel",
-      "Tipografía & sistemas",
-      "Identidad visual",
+      "Senior Graphic Designer",
+      "Freelance · Upwork",
+      "Brand · type · digital",
     ],
     en: [
-      "High-level design",
-      "Typography & systems",
-      "Visual identity",
+      "Senior Graphic Designer",
+      "Freelance · Upwork",
+      "Brand · type · digital",
     ],
   },
   experience: {
     es: [
       {
-        hash: "ese",
-        role: "Diseño",
-        company: "ESE Design",
-        period: "presente",
-        desc: "Diseño de identidad, tipografía aplicada y sistemas visuales. Encargos de alto nivel con criterio editorial.",
+        hash: "upwk",
+        role: "Senior Graphic Designer",
+        company: "Upwork",
+        period: "perfil activo",
+        desc: "Perfil freelance de alto rendimiento: encargos remotos de branding, identidad y diseño digital para clientes internacionales. Track record sólido de Job Success y proyectos de largo aliento.",
       },
       {
-        hash: "indep",
-        role: "Diseño independiente",
-        company: "freelance",
-        period: "—",
-        desc: "Marca, piezas editoriales y dirección tipográfica para clientes selectos. Completar con proyectos reales.",
+        hash: "ese",
+        role: "Freelance Senior Graphic Designer",
+        company: "ESE Graphic Design",
+        period: "nov 2009 — presente",
+        desc: "Estudio propio desde Mendoza. Identidad, branding, print y digital para agencias, desarrolladores y estudios de todo el mundo.",
+      },
+      {
+        hash: "fbvl",
+        role: "Freelance Graphic Designer",
+        company: "Fabvla snc",
+        period: "jun 2011 — presente",
+        desc: "Colaboración continua con estudio web/móvil (Treviso, Italia): UI, marca y piezas para productos digitales e interactivos.",
+      },
+      {
+        hash: "fr06",
+        role: "Diseñadora gráfica freelance",
+        company: "independiente",
+        period: "desde 2006",
+        desc: "Diseño para web developers, agencias y estudios internacionales. Trayectoria sostenida en identidad y comunicación visual.",
       },
     ],
     en: [
       {
-        hash: "ese",
-        role: "Design",
-        company: "ESE Design",
-        period: "present",
-        desc: "Identity design, applied typography, and visual systems. High-level commissions with editorial judgment.",
+        hash: "upwk",
+        role: "Senior Graphic Designer",
+        company: "Upwork",
+        period: "active profile",
+        desc: "High-performing freelance profile: remote branding, identity, and digital design for international clients. Strong Job Success track record and long-term engagements.",
       },
       {
-        hash: "indep",
-        role: "Independent design",
-        company: "freelance",
-        period: "—",
-        desc: "Brand, editorial pieces, and type direction for select clients. Replace with real projects.",
+        hash: "ese",
+        role: "Freelance Senior Graphic Designer",
+        company: "ESE Graphic Design",
+        period: "Nov 2009 — present",
+        desc: "Own studio based in Mendoza. Identity, branding, print, and digital for agencies, developers, and studios worldwide.",
+      },
+      {
+        hash: "fbvl",
+        role: "Freelance Graphic Designer",
+        company: "Fabvla snc",
+        period: "Jun 2011 — present",
+        desc: "Ongoing collaboration with a web/mobile studio (Treviso, Italy): UI, brand, and pieces for digital and interactive products.",
+      },
+      {
+        hash: "fr06",
+        role: "Freelance graphic designer",
+        company: "independent",
+        period: "since 2006",
+        desc: "Design for web developers, agencies, and international studios. Sustained practice in identity and visual communication.",
       },
     ],
   },
@@ -78,7 +112,7 @@ const CONTENT = {
         role: "Formación en diseño",
         company: "— completar —",
         period: "—",
-        desc: "Agregar título, institución y año cuando los tengas.",
+        desc: "Agregar título, institución y año (LinkedIn desactualizado no lo lista con claridad).",
       },
     ],
     en: [
@@ -87,108 +121,109 @@ const CONTENT = {
         role: "Design education",
         company: "— to complete —",
         period: "—",
-        desc: "Add degree, school, and year when ready.",
+        desc: "Add degree, school, and year (LinkedIn is outdated and unclear here).",
       },
     ],
   },
   skills: {
     es: [
       {
-        title: "tipografía",
-        items: ["Jerarquía", "Pairing", "Editorial", "Lettering"],
+        title: "identidad",
+        items: ["Branding", "Logotipos", "Sistemas visuales", "Guidelines"],
       },
       {
-        title: "identidad",
-        items: ["Marca", "Sistemas visuales", "Guidelines", "Naming support"],
+        title: "tipografía",
+        items: ["Jerarquía", "Pairing", "Editorial", "Aplicada"],
       },
       {
         title: "medios",
-        items: ["Print", "Digital", "Packaging", "Señalética"],
+        items: ["Print", "Digital", "Web UI", "Packaging"],
       },
       {
         title: "herramientas",
-        items: ["Illustrator", "InDesign", "Photoshop", "Figma"],
+        items: ["Illustrator", "Photoshop", "InDesign", "Figma"],
+      },
+      {
+        title: "remoto",
+        items: ["Upwork top track", "Agencias", "Estudios", "Dev teams"],
       },
       {
         title: "idiomas",
-        items: ["Español nativo", "Inglés"],
-      },
-      {
-        title: "criterio",
-        items: ["Dirección de arte", "Rigor formal", "Menos, mejor"],
+        items: ["Español nativo", "Inglés profesional"],
       },
     ],
     en: [
       {
-        title: "typography",
-        items: ["Hierarchy", "Pairing", "Editorial", "Lettering"],
+        title: "identity",
+        items: ["Branding", "Logotypes", "Visual systems", "Guidelines"],
       },
       {
-        title: "identity",
-        items: ["Brand", "Visual systems", "Guidelines", "Naming support"],
+        title: "typography",
+        items: ["Hierarchy", "Pairing", "Editorial", "Applied"],
       },
       {
         title: "media",
-        items: ["Print", "Digital", "Packaging", "Wayfinding"],
+        items: ["Print", "Digital", "Web UI", "Packaging"],
       },
       {
         title: "tools",
-        items: ["Illustrator", "InDesign", "Photoshop", "Figma"],
+        items: ["Illustrator", "Photoshop", "InDesign", "Figma"],
+      },
+      {
+        title: "remote",
+        items: ["Upwork top track", "Agencies", "Studios", "Dev teams"],
       },
       {
         title: "languages",
-        items: ["Spanish native", "English"],
-      },
-      {
-        title: "judgment",
-        items: ["Art direction", "Formal rigor", "Fewer, better"],
+        items: ["Spanish native", "Professional English"],
       },
     ],
   },
   /**
    * Selección de trabajo (portfolio editorial).
    * href opcional; sin href = solo ficha.
+   * Fuentes: blog ESE + categorías de práctica (LinkedIn desactualizado).
    */
   work: [
     {
-      id: "identity",
-      title: { es: "Identidad", en: "Identity" },
+      id: "upwork",
+      title: { es: "Upwork", en: "Upwork" },
       desc: {
-        es: "Sistemas de marca con tipografía protagonista: logotipo, familia tipográfica y aplicaciones.",
-        en: "Brand systems led by type: logotype, type family, and applications.",
+        es: "Perfil freelance de alto rendimiento. Branding, identidad y diseño digital para clientes globales — el canal donde se ve el track record actual.",
+        en: "High-performing freelance profile. Branding, identity, and digital design for global clients — the channel that shows the current track record.",
       },
-      tags: ["Brand", "Type", "System"],
-      href: null,
+      tags: ["Remote", "Brand", "Digital"],
+      href: null, // se rellena con CONTENT.upworkUrl si existe
     },
     {
-      id: "editorial",
-      title: { es: "Editorial", en: "Editorial" },
+      id: "scuba100",
+      title: { es: "Scuba100", en: "Scuba100" },
       desc: {
-        es: "Maquetación y ritmo de página. Libros, catálogos y piezas de lectura larga.",
-        en: "Page layout and rhythm. Books, catalogues, and long-form pieces.",
+        es: "Marca, diales de reloj y web para Italian Soul (Italia). Con Fabio Ligresti y Alessandro Zanatta.",
+        en: "Brand, watch dials, and web for Italian Soul (Italy). With Fabio Ligresti and Alessandro Zanatta.",
       },
-      tags: ["Layout", "Print", "Rhythm"],
-      href: null,
+      tags: ["Brand", "Product", "Web"],
+      href: "https://salcedovanesa.blogspot.com/search/label/Watches",
     },
     {
-      id: "type",
-      title: { es: "Tipografía aplicada", en: "Applied type" },
+      id: "vinilozz",
+      title: { es: "VinilOzz", en: "VinilOzz" },
       desc: {
-        es: "Selección, pairing y uso de tipos en contextos de alto nivel visual.",
-        en: "Type selection, pairing, and use in high-level visual contexts.",
+        es: "Identidad de marca para VinilOzz.com — Argentina.",
+        en: "Brand identity for VinilOzz.com — Argentina.",
       },
-      tags: ["Type", "Pairing", "Craft"],
-      href: null,
+      tags: ["Brand", "Identity"],
+      href: "https://salcedovanesa.blogspot.com/2012/07/vinilozzcom.html",
     },
     {
-      id: "digital",
-      title: { es: "Digital", en: "Digital" },
+      id: "expo",
+      title: { es: "Expo Salones & Catering", en: "Expo Salones & Catering" },
       desc: {
-        es: "Interfaces y piezas web donde la tipografía ordena la experiencia.",
-        en: "Interfaces and web pieces where type orders the experience.",
+        es: "Piezas print y web para la expo — Argentina.",
+        en: "Print and web pieces for the expo — Argentina.",
       },
-      tags: ["UI", "Web", "Type"],
-      href: null,
+      tags: ["Print", "Web"],
+      href: "https://salcedovanesa.blogspot.com/search/label/Printing",
     },
   ],
 };
@@ -204,15 +239,15 @@ const I18N = {
     "nav.contact": "contact",
     "hero.eyebrow": "curriculum · diseño",
     "hero.lead":
-      "Diseño de alto nivel con foco en tipografía, identidad y sistemas visuales. Claridad, rigor formal y criterio editorial.",
+      "Senior graphic designer freelance desde 2006. Identidad, branding y diseño digital para agencias, estudios y equipos de producto en todo el mundo — con un perfil Upwork de alto rendimiento.",
     "hero.cta": "iniciar conversación",
     "hero.ctaSecondary": "ver selección",
     "about.label": "about",
     "about.title": "perfil",
     "about.p1":
-      "Soy Vanesa. Trabajo el diseño desde la tipografía y la identidad: marcas, sistemas visuales y piezas donde el tipo es protagonista.",
+      "Soy Vanesa. Diseñadora gráfica argentina (Mendoza). Desde 2006 trabajo para web developers, agencias y estudios de diseño en el mundo: marca, tipografía aplicada y piezas digitales.",
     "about.p2":
-      "Prefiero menos, mejor: jerarquías claras, ritmo tipográfico y decisiones que se sostienen en el tiempo.",
+      "Dirijo ESE Graphic Design y colaboro con Fabvla (Italia). El track record vivo está en Upwork — LinkedIn quedó atrás. Prefiero menos, mejor: jerarquía clara y rigor formal.",
     "experience.label": "experience",
     "experience.title": "trayectoria",
     "education.label": "education",
@@ -224,12 +259,14 @@ const I18N = {
     "contact.label": "contact",
     "contact.title": "hablemos",
     "contact.lead":
-      "Abierta a encargos de identidad, tipografía y diseño editorial de alto nivel. Preferí mail.",
+      "Abierta a encargos de identidad, branding y diseño digital. Preferí Upwork o mail.",
     "contact.copy": "copiar email",
     "contact.copied": "copiado ✓",
     "contact.hintBefore": "tip: pulsá",
     "contact.hintAfter": "para copiar el email",
     "contact.viaInstagram": "Instagram →",
+    "contact.viaUpwork": "Upwork →",
+    "contact.viaLinkedin": "LinkedIn →",
     "footer.built": "set with care · no frameworks",
     "project.link": "ver proyecto →",
     "project.badge.selected": "selected",
@@ -245,15 +282,15 @@ const I18N = {
     "nav.contact": "contact",
     "hero.eyebrow": "curriculum · design",
     "hero.lead":
-      "High-level design focused on typography, identity, and visual systems. Clarity, formal rigor, and editorial judgment.",
+      "Senior freelance graphic designer since 2006. Identity, branding, and digital design for agencies, studios, and product teams worldwide — with a high-performing Upwork profile.",
     "hero.cta": "start a conversation",
     "hero.ctaSecondary": "see selection",
     "about.label": "about",
     "about.title": "profile",
     "about.p1":
-      "I'm Vanesa. I approach design through type and identity: brands, visual systems, and pieces where type leads.",
+      "I'm Vanesa. Argentinian graphic designer (Mendoza). Since 2006 I've worked for web developers, agencies, and design studios worldwide: brand, applied type, and digital pieces.",
     "about.p2":
-      "I prefer fewer, better: clear hierarchy, typographic rhythm, and decisions that hold over time.",
+      "I run ESE Graphic Design and collaborate with Fabvla (Italy). The live track record is on Upwork — LinkedIn fell behind. I prefer fewer, better: clear hierarchy and formal rigor.",
     "experience.label": "experience",
     "experience.title": "trajectory",
     "education.label": "education",
@@ -265,12 +302,14 @@ const I18N = {
     "contact.label": "contact",
     "contact.title": "let's talk",
     "contact.lead":
-      "Open to high-level identity, typography, and editorial commissions. Prefer email.",
+      "Open to identity, branding, and digital design commissions. Prefer Upwork or email.",
     "contact.copy": "copy email",
     "contact.copied": "copied ✓",
     "contact.hintBefore": "tip: press",
     "contact.hintAfter": "to copy email",
     "contact.viaInstagram": "Instagram →",
+    "contact.viaUpwork": "Upwork →",
+    "contact.viaLinkedin": "LinkedIn →",
     "footer.built": "set with care · no frameworks",
     "project.link": "view project →",
     "project.badge.selected": "selected",
@@ -424,6 +463,11 @@ function renderSkills() {
     .join("");
 }
 
+function resolveWorkHref(item) {
+  if (item.id === "upwork" && CONTENT.upworkUrl) return CONTENT.upworkUrl;
+  return item.href || null;
+}
+
 function renderWork() {
   const root = document.getElementById("projects-grid");
   if (!root) return;
@@ -433,10 +477,11 @@ function renderWork() {
     .map((item, i) => {
       const title = item.title?.[lang] || item.title?.es || item.id;
       const desc = item.desc?.[lang] || item.desc?.es || "";
-      const badge = item.href ? "live" : "selected";
+      const href = resolveWorkHref(item);
+      const badge = href ? "live" : "selected";
       const badgeLabel = t(`project.badge.${badge}`);
-      const linkHtml = item.href
-        ? `<a class="project-card__link" href="${escapeAttr(item.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+      const linkHtml = href
+        ? `<a class="project-card__link" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(
             t("project.link")
           )}</a>`
         : `<span class="project-card__link project-card__link--muted mono">${escapeHtml(item.id)}</span>`;
@@ -566,6 +611,35 @@ function initInstagram() {
   });
 }
 
+function initProfileLinks() {
+  const upwork = (CONTENT.upworkUrl || "").trim();
+  document.querySelectorAll("[data-upwork-link]").forEach((el) => {
+    if (!upwork) {
+      el.hidden = true;
+      return;
+    }
+    el.hidden = false;
+    el.href = upwork;
+  });
+
+  // Si no hay Upwork, el mail pasa a CTA primario
+  const emailBtn = document.getElementById("copy-email");
+  if (emailBtn) {
+    emailBtn.classList.toggle("btn--primary", !upwork);
+    emailBtn.classList.toggle("btn--ghost", Boolean(upwork));
+  }
+
+  const linkedin = (CONTENT.linkedinUrl || "").trim();
+  document.querySelectorAll("[data-linkedin-link]").forEach((el) => {
+    if (!linkedin) {
+      el.hidden = true;
+      return;
+    }
+    el.hidden = false;
+    el.href = linkedin;
+  });
+}
+
 function initLang() {
   document.querySelectorAll(".lang__btn").forEach((btn) => {
     btn.addEventListener("click", () => setLang(btn.dataset.lang));
@@ -598,6 +672,7 @@ function main() {
   initReveal();
   initCopyEmail();
   initInstagram();
+  initProfileLinks();
 }
 
 main();
