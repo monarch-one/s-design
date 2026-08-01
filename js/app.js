@@ -1,11 +1,11 @@
 /**
- * s.design — Vanesa Salcedo CV
+ * s.design — Vanesa Maria Salcedo CV
  * Edit CONTENT + I18N to personalize.
  */
 
 const CONTENT = {
-  name: "Vanesa Salcedo",
-  nameLines: ["Vanesa", "Salcedo"],
+  name: "Vanesa Maria Salcedo",
+  nameLines: ["Vanesa Maria", "Salcedo"],
   /**
    * Email ofuscado (base64). No texto plano en el repo.
    * u = btoa(local) · d = btoa(domain)

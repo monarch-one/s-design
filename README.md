@@ -1,6 +1,6 @@
 # s.design
 
-Curriculum vitae editorial de **Vanesa Salcedo**: tipografía de alto nivel, identidad, bilingüe ES/EN.
+Curriculum vitae editorial de **Vanesa Maria Salcedo**: tipografía de alto nivel, identidad, bilingüe ES/EN.
 
 ## Stack
 
